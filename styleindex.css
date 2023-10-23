@@ -1,21 +1,22 @@
-nav{
-    display: flex;
-    justify-content: space-around;
-    margin-top: auto;
-    height: 90px;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /** good practice to measure area**/
 }
 
-nav ul li{
-    list-style: none;
-    margin:0px 23px;
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
 }
-.left{
-    align-items: left;
-}
-.right{
-    align-items:right;
+ .nav-logo{
+    height: 50px;
+    width: 100px;
+ }
+.logo {
+    background-image: url(" logo.png");
+background-size: cover;
+height: 50px;
+    width: 100%;
 }
