@@ -143,7 +143,15 @@ nav-second {
     font-weight: 700;
     font-size: 0.9rem;
 }
-
+.pannel-opp :hover {
+    border: 1px solid orange;
+}
+.pannel-all:hover {
+    border: 1px solid orange;
+}
+.pannel-deal:hover {
+    border: 1px solid orange;
+}
 /** main body headline**/
 
 .headline {
