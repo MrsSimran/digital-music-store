@@ -163,11 +163,11 @@ nav-second {
 }
 
 /** center box**/
-.center {
+#center {
     position: absolute;
     top: 45%;
     left: 25%;
-    transform: ;
+    transform: translate(-50%,-50%);
     height: 5rem;
     border: 1px solid orange;
     width: 12rem;
@@ -176,7 +176,7 @@ nav-second {
 
 }
 
-.center h3 {
+#center h3 {
     color: rgb(255, 136, 156);
     margin-top: 1.81rem;
 }
