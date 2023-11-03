@@ -98,12 +98,12 @@
 }
 
 /**box4**/
-span {
+.span {
     font-size: 0.75rem;
     margin: 2px;
 }
 
-nav-second {
+.nav-second {
     font-size: 0.85rem;
     font-weight: 700;
     margin-right: 3px;
@@ -166,6 +166,51 @@ nav-second {
     color: bold black;
     font-weight: 1rem;
 }
+/**sub-pannel**/
+.pannel2{
+   display: flex;
+   background-color:whitesmoke;
+}
+.sub-pannel{
+    margin: 2px 2px 2px 2px;
+    padding-left: 9px;
+    height:60px;
+    width: 80px;
+
+}
+.sub-pannel i{
+    padding-left: 50px;
+}
+
+.sub-pannel p {
+ font-weight: bold;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 25px;
+ display: flex ;
+}
+
+.content-a{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    padding-top: 25px;
+
+}
+
+.content-a p {
+    font-size: small;
+    width: 100%;
+    display: inline;
+    margin-left: 55px;
+}
+
+.contentb{
+    margin-left: 95px;
+}
+.openwebplayer{
+    margin-top: 25px;
+}
+
 
 /** center box**/
 .box1 {
@@ -186,3 +231,5 @@ nav-second {
     margin-top: 1.81rem;
    
 }
+
+
