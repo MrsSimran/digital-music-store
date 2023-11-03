@@ -122,9 +122,9 @@ nav-second {
     height: 40px;
     background-color: #222f3d;
     color: #f3f3f3;
-    justify-content: space-evenly;
     display: flex;
     align-items: center;
+    justify-content:left;
 }
 
 .pannel-opp p {
@@ -140,18 +140,23 @@ nav-second {
 
 
 .pannel-deal {
+            margin-left: 40rem;
     font-weight: 700;
     font-size: 0.9rem;
 }
+
 .pannel-opp :hover {
     border: 1px solid orange;
 }
+
 .pannel-all:hover {
     border: 1px solid orange;
 }
+
 .pannel-deal:hover {
     border: 1px solid orange;
 }
+
 /** main body headline**/
 
 .headline {
@@ -163,20 +168,21 @@ nav-second {
 }
 
 /** center box**/
-#center {
+.box1 {
     position: absolute;
     top: 45%;
     left: 25%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     height: 5rem;
     border: 1px solid orange;
     width: 12rem;
     text-align: center;
     text-shadow: #f3f3f3;
 
+    background-color:red;
 }
-
-#center h3 {
-    color: rgb(255, 136, 156);
+.box1 h3 {
+    color:white;
     margin-top: 1.81rem;
+   
 }
