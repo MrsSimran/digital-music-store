@@ -210,6 +210,10 @@
 .openwebplayer{
     margin-top: 25px;
 }
+.sign-in{
+    margin-top: 25px;
+    margin-left: 95px;
+}
 
 
 /** center box**/
@@ -235,10 +239,17 @@
 
 
 /**add free banner**/
- .joinprime{
-    background-color:yellow ;
-    padding: 0px 10 px 0px 11px ;
-    border-radius: 2px ;
+.login-container {
+    text-align: center;
+  }
 
- }
+  .login-button {
+    background-color:orange;
+    color: black;
+    width: 20%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
