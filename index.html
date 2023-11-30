@@ -101,12 +101,28 @@
 
 
         <!--login button-->
-        
+
         <div class="login-container">
             <button class="login-button">Login</button>
 
         </div>
 
+        <form action="/your-server-side-endpoint" method="post" onsubmit="openNewPage()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign In</button>
+        </form>
+        <script>
+            function openNewPage() {
+                // You can replace the URL with the actual URL of the new page
+                window.location.href = "sign-in.html";
+                return false; // Prevents the form from submitting in case you have server-side logic
+            }
+        </script>
 
 
         <!---main body box----->

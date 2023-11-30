@@ -124,7 +124,7 @@
     color: #f3f3f3;
     display: flex;
     align-items: center;
-    justify-content:left;
+    justify-content: left;
 }
 
 .pannel-opp p {
@@ -140,7 +140,7 @@
 
 
 .pannel-deal {
-            margin-left: 40rem;
+    margin-left: 40rem;
     font-weight: 700;
     font-size: 0.9rem;
 }
@@ -166,30 +166,33 @@
     color: bold black;
     font-weight: 1rem;
 }
+
 /**sub-pannel**/
-.pannel2{
-   display: flex;
-   background-color:whitesmoke;
+.pannel2 {
+    display: flex;
+    background-color: whitesmoke;
 }
-.sub-pannel{
+
+.sub-pannel {
     margin: 2px 2px 2px 2px;
     padding-left: 9px;
-    height:60px;
+    height: 60px;
     width: 80px;
 
 }
-.sub-pannel i{
+
+.sub-pannel i {
     padding-left: 50px;
 }
 
 .sub-pannel p {
- font-weight: bold;
- font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 25px;
- display: flex ;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
 }
 
-.content-a{
+.content-a {
     display: flex;
     justify-content: space-evenly;
     margin-left: 80px;
@@ -202,17 +205,38 @@
     width: 100%;
     display: inline;
     margin-left: 55px;
+    margin-bottom: 5px;
 }
 
-.contentb{
+.contentb {
     margin-left: 95px;
+
 }
-.openwebplayer{
+
+.openwebplayer {
     margin-top: 25px;
+    margin-bottom: 6px;
 }
-.sign-in{
+
+.openwebplayer:hover {
+    border: 1.5px solid orange;
+
+}
+
+.sign-in {
     margin-top: 25px;
     margin-left: 95px;
+    margin-bottom: 6px;
+}
+
+.sign-in:hover {
+    border: 1.5px solid orange;
+
+}
+
+.content-a p:hover {
+    border: 1.5px solid orange;
+
 }
 
 
@@ -228,28 +252,28 @@
     text-align: center;
     text-shadow: #f3f3f3;
 
-    background-color:red;
+    background-color: red;
 }
+
 .box1 h3 {
-    color:white;
+    color: white;
     margin-top: 1.81rem;
-   
+
 }
-  
+
 
 
 /**add free banner**/
 .login-container {
     text-align: center;
-  }
+}
 
-  .login-button {
-    background-color:orange;
+.login-button {
+    background-color: orange;
     color: black;
     width: 20%;
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-  }
-
+}
