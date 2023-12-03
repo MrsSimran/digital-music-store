@@ -7,7 +7,7 @@
     <title>Sign In</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@
         }
 
         img {
-           margin: 50px 50px 0px 300px;
+            margin: 50px 50px 0px 400px;
             height: 150px;
 
         }
@@ -30,7 +30,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 400px;
             width: 100%;
-            margin: 0px 50px 50px 300px;
+            margin: 0px 50px 50px 400px;
         }
 
         label {
@@ -60,29 +60,29 @@
         button:hover {
             background-color: #45a049;
         }
-
-        /*   img {
-            height: 150px;
-        margin-bottom: 350px;
-        margin-left: 100%;
-                
-        }*/
     </style>
 </head>
 
 <body>
 
+
     <div class="img">
         <img src="amazon music logo.png" alt="AmazonMusic">
     </div>
     <form action="/your-server-side-endpoint" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <h1>Sign in</h3>
+            <label for="username">Email or mobile phone number</label>
+            <input type="text" id="username" name="username" required>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+            <label for="password">Password</label>
 
-        <button type="submit">Sign In</button>
+
+            <input type="password" id="password" name="password" required>
+            <label for="Forgot your password?"> <a href="#"> Forgot your password?</a> </label>
+            <button type="submit">Sign In</button>
+            <p>By continuing, you agree to Amazon's <span style="color: blue;" > of Use </span>and
+                 <span style="color: blue;" >Privacy Notice.</span></p>
+
     </form>
 </body>
 
