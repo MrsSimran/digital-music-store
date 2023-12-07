@@ -48,7 +48,7 @@
         }
 
         button {
-            background-color: #4caf50;
+            background-color:orange;
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -60,6 +60,8 @@
         button:hover {
             background-color: #45a049;
         }
+
+        #keep_signed_in {}
     </style>
 </head>
 
@@ -67,7 +69,7 @@
 
 
     <div class="img">
-        <img src="amazon music logo.png" alt="AmazonMusic">
+        <img src="amazon music logo.png"  alt=" AmazonMusic">
     </div>
     <form action="/your-server-side-endpoint" method="post">
         <h1>Sign in</h3>
@@ -80,8 +82,12 @@
             <input type="password" id="password" name="password" required>
             <label for="Forgot your password?"> <a href="#"> Forgot your password?</a> </label>
             <button type="submit">Sign In</button>
-            <p>By continuing, you agree to Amazon's <span style="color: blue;" > of Use </span>and
-                 <span style="color: blue;" >Privacy Notice.</span></p>
+            <p>By continuing, you agree to Amazon's <span style="color: blue;"> of Use </span>and
+                <span style="color: blue;">Privacy Notice.</span>
+            </p>
+            <center>
+                <input type="checkbox" name="keep_signed_in" id="keep_signed_in">keep me signed in
+            </center>
 
     </form>
 </body>
