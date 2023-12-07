@@ -197,6 +197,7 @@
     justify-content: space-evenly;
     margin-left: 80px;
     padding-top: 25px;
+    text-decoration: none;
 
 }
 
@@ -206,16 +207,19 @@
     display: inline;
     margin-left: 55px;
     margin-bottom: 5px;
+   
 }
 
 .contentb {
     margin-left: 95px;
+    text-decoration: none;
 
 }
 
 .openwebplayer {
     margin-top: 25px;
     margin-bottom: 6px;
+    text-decoration: none;
 }
 
 .openwebplayer:hover {
@@ -227,6 +231,7 @@
     margin-top: 25px;
     margin-left: 95px;
     margin-bottom: 6px;
+    text-decoration: none;
 }
 
 .sign-in:hover {
@@ -266,6 +271,8 @@
 /**add free banner**/
 .login-container {
     text-align: center;
+
+    
 }
 
 .login-button {
