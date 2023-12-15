@@ -275,3 +275,20 @@
     display: flex;
     justify-content: space-evenly;
 }
+.boxA{
+    background-color: #222f3d;
+    height: 80%;
+    width: 100%;
+    margin-top:20px ;
+}
+.A{  padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vertical-line{
+border-left: 2px solid white;
+    margin: 0;
+    height: 110px;
+    padding: 0;
+
+}
