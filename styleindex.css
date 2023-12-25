@@ -293,10 +293,16 @@ border-left: 2px solid white;
 
 }
 .backtotop{
-    height: 50px;
+    height: 30px;
     width: 100%;
+    padding: 20px;
     text-align: center;
+    color: orange soild ;
     background-color: #222f3d;
-    color: black soild ;
-    
+}
+.footer{
+    background-color: #222f3d ;
+    width:100%;
+    height: 60%;
+    color: black;
 }
