@@ -292,3 +292,11 @@ border-left: 2px solid white;
     padding: 0;
 
 }
+.backtotop{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #222f3d;
+    color: black soild ;
+    
+}
